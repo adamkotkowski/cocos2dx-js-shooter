@@ -8,6 +8,7 @@
       "Animation": {
         "Duration": 155,
         "Speed": 1.0,
+        "ActivedAnimationName": "fly",
         "Timelines": [
           {
             "ActionTag": -1643299738,
@@ -457,6 +458,8 @@
               "X": 0.0,
               "Y": 0.0
             },
+            "TopMargin": 1000.0,
+            "BottomMargin": -1000.0,
             "Children": [
               {
                 "FileData": {
@@ -472,20 +475,22 @@
                   "X": 0.0,
                   "Y": 0.0
                 },
-                "LeftMargin": -10.5,
-                "RightMargin": -22.5,
+                "LeftMargin": -12.8822,
+                "RightMargin": -20.1178,
                 "TopMargin": -3.5,
                 "BottomMargin": -29.5,
                 "ActionTag": -1643299738,
                 "Position": {
-                  "X": 6.0,
+                  "X": 3.6178,
                   "Y": -13.0
                 },
                 "Scale": {
                   "ScaleX": 1.0,
                   "ScaleY": 1.0
                 },
-                "RotationSkewY": 0.0001,
+                "Rotation": 44.2247,
+                "RotationSkewX": 44.2247,
+                "RotationSkewY": 44.2244,
                 "AnchorPoint": {
                   "ScaleX": 0.5,
                   "ScaleY": 0.5
@@ -513,13 +518,13 @@
                   "X": 0.0,
                   "Y": 0.0
                 },
-                "LeftMargin": -31.6212,
-                "RightMargin": -35.3788,
+                "LeftMargin": -33.8512,
+                "RightMargin": -33.1488,
                 "TopMargin": -9.3723,
                 "BottomMargin": -13.6277,
                 "ActionTag": 1297567798,
                 "Position": {
-                  "X": 1.8788,
+                  "X": -0.3512,
                   "Y": -2.1277
                 },
                 "Scale": {
@@ -553,20 +558,22 @@
                   "X": 0.0,
                   "Y": 0.0
                 },
-                "LeftMargin": -39.0,
-                "RightMargin": -5.0,
-                "TopMargin": -12.2,
-                "BottomMargin": -6.8,
+                "LeftMargin": -33.4423981,
+                "RightMargin": -10.5576,
+                "TopMargin": 1.29870033,
+                "BottomMargin": -20.2987,
                 "ActionTag": -536845572,
                 "Position": {
-                  "X": -17.0,
-                  "Y": 2.7
+                  "X": -11.4424,
+                  "Y": -10.7987
                 },
                 "Scale": {
                   "ScaleX": 1.0,
                   "ScaleY": 1.0
                 },
-                "RotationSkewY": -0.0006,
+                "Rotation": -48.6646,
+                "RotationSkewX": -48.6646,
+                "RotationSkewY": -48.6651,
                 "AnchorPoint": {
                   "ScaleX": 0.5,
                   "ScaleY": 0.5
@@ -584,12 +591,15 @@
             "ActionTag": 1841496968,
             "Position": {
               "X": 0.0,
-              "Y": 0.0
+              "Y": -1000.0
             },
             "Scale": {
               "ScaleX": 1.0,
               "ScaleY": 1.0
             },
+            "Rotation": 180.0,
+            "RotationSkewX": 180.0,
+            "RotationSkewY": 180.0,
             "AnchorPoint": {},
             "CColor": {},
             "Size": {
@@ -617,12 +627,12 @@
             },
             "LeftMargin": -24.145,
             "RightMargin": -18.855,
-            "TopMargin": -38.0,
-            "BottomMargin": 2.0,
+            "TopMargin": -118.0,
+            "BottomMargin": 82.0,
             "ActionTag": -1668742785,
             "Position": {
               "X": -2.645,
-              "Y": 20.0
+              "Y": 100.0
             },
             "Scale": {
               "ScaleX": 1.7779,
@@ -632,6 +642,7 @@
               "ScaleX": 0.5,
               "ScaleY": 0.5
             },
+            "Alpha": 0,
             "CColor": {
               "R": 0,
               "G": 0,
@@ -641,7 +652,6 @@
               "X": 43.0,
               "Y": 36.0
             },
-            "VisibleForFrame": false,
             "FrameEvent": "",
             "Name": "score",
             "ctype": "TextBMFontObjectData"
@@ -670,8 +680,8 @@
               "Y": 0.5725
             },
             "Scale": {
-              "ScaleX": 0.1449,
-              "ScaleY": 0.1449
+              "ScaleX": 0.0491,
+              "ScaleY": 0.0491
             },
             "AnchorPoint": {
               "ScaleX": 0.5,

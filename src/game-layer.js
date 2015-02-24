@@ -29,8 +29,29 @@ var GameLayer = cc.Layer.extend({
 //				console.log(str);
 			}
 		}, this);
-		
+		this.start();
 		this.addBird();
+	},
+	timerTick: function(){
+		this.updateHUD();
+	},
+	_timerTick: function(){
+		this.timerTick();
+		var that = this;
+		this.tickTimeout = setTimeout(function (){
+			that._timerTick();
+		},100)
+	},
+	start: function(){
+		this.gameState.timeResumed = new Date().getTime();
+		this._timerTick();
+	},
+	stop: function(){
+		if(this.tickTimeout){
+			clearTimeout(this.tickTimeout);
+		}
+		this.gameState.timePassed = newDate().getTime() - this.gameState.timeResumed;
+		this.gameState.timeResumed = 0;
 	},
 	targets: [],
 	shot: function(_x,_y){
@@ -50,17 +71,17 @@ var GameLayer = cc.Layer.extend({
 		ball.scaleX = 0.5;
 		ball.scaleY = 0.5;
 		this.addChild(ball);
-		var animationMove = cc.JumpTo(0.2,_x,_y,200,1);
-		var animationSize = cc.scaleTo(0.2, 0.02, 0.02)
-		var animationRotate = cc.rotateBy(0.2, 360, 340);
-		var that = this;
-		var callFunc = cc.callFunc(function(){
+		var animationMove = new cc.JumpTo(0.2,_x,_y,200,1);
+		var animationSize = new cc.ScaleTo(0.2, 0.02, 0.02)
+		var animationRotate = new cc.RotateBy(0.2, 360, 340);
+		var that = this;	
+		var callFunc = new cc.CallFunc(function(){
 			that.calculateKills(ball.getBoundingBox());
 			ball.removeFromParent(true);
 			
 		},this)
-		var fly = cc.Spawn([animationMove,animationSize,animationRotate]);
-		ball.runAction(cc.Sequence([fly,callFunc]));
+		var fly = new cc.Spawn([animationMove,animationSize,animationRotate]);
+		ball.runAction(new cc.Sequence([fly,callFunc]));
 		
 	},
 	calculateKills: function(rect){
@@ -107,34 +128,39 @@ var GameLayer = cc.Layer.extend({
 });
 var target = {};
 target.Bird = CCSNode.extend({
-	resFile:'res/bird.json',
+	resFile:res.bird_json,
 	ctor:function () {
 		this._super();
 		var size = cc.winSize;
 		this.y = Math.random()*size.height;
 		this.x = -this.width*this.scaleX;
-		var animation = cc.MoveBy(10,size.width+this.width*this.scaleX,0);
+		var animation = new cc.MoveBy(10,size.width+this.width*this.scaleX,0);
 		this.runAction(animation);
 		this.width = 100;
 		this.height = 100;
 		this.runAction(this.action);
-		var fly = this.action.getAnimationInfo("fly");
-		this.action.gotoFrameAndPlay(fly.startIndex,fly.endIndex,true);
+//		var fly = this.action.getAnimationInfo("fly");
+//		this.action.gotoFrameAndPlay(fly.startIndex,fly.endIndex,false);
+		this.action.gotoFrameAndPlay(0,40,true);
 		this.turn();
 	},
 	kill: function(){
 		clearTimeout(this.turnTimeout);
-		var fly = this.action.getAnimationInfo("hit");
+//		var fly = this.action.getAnimationInfo("hit");
 		this.action.setTimeSpeed(1);
-		this.action.gotoFrameAndPlay(fly.startIndex,fly.endIndex,false);
-		
+//		this.action.gotoFrameAndPlay(fly.startIndex,fly.endIndex,false);
+		this.action.gotoFrameAndPlay(45,155,false);
+		var that = this;
+		setTimeout(function(){
+			that.removeFromParent();
+		},2000);
 	},
 	turn: function(){
 		var dX = Math.random()*300-150;
 		var dY = Math.random()*300-150;
 		var speed = Math.random()*2;
 		var distance = Math.sqrt(dX*dX+dY*dY);
-		var animation = cc.MoveBy(distance/100*speed,dX,dY);
+		var animation = new cc.MoveBy(distance/100*speed,dX,dY);
 		this.action.setTimeSpeed(speed);
 		//this.setSkewY(180);//(dX<0? true:false);
 		this.runAction(animation);

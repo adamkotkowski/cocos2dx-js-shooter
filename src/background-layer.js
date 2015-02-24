@@ -3,7 +3,7 @@ var BackgroundLayer = cc.Layer.extend({
 	ctor:function () {
 		this._super();
 		var size = cc.winSize;
-		var _node = new cc.Sprite("res/images/background.png");
+		var _node = new cc.Sprite(res.background);
 		_node.x = 0;
 		_node.y = 0;
 		_node.width = size.width;
@@ -15,13 +15,13 @@ var BackgroundLayer = cc.Layer.extend({
 	},
 	addCloud: function(){
 		var size = cc.winSize;
-		var cloud = new cc.Sprite("res/images/cloud1.png");
+		var cloud = new cc.Sprite(res.cloud1);
 		cloud.y = Math.random()*size.height;
 		cloud.scaleX = 0.5;
 		cloud.scaleY = 0.5;
 		cloud.x = -cloud.width * cloud.scaleX/2;
 		this.addChild(cloud);
-		var animation = cc.MoveBy(20,size.width+cloud.width*cloud.scaleX,0);
+		var animation = new cc.MoveBy(20,size.width+cloud.width*cloud.scaleX,0);
 		cloud.runAction(animation);
 		var that = this;
 		setTimeout(function(){
