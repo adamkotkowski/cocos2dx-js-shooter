@@ -1,0 +1,759 @@
+{
+  "ID": "52d96925-a16c-4df0-9156-9dccad157344",
+  "Version": "2.1.0.0",
+  "Type": "Node",
+  "Name": "bird",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 155,
+        "Speed": 1.0,
+        "Timelines": [
+          {
+            "ActionTag": -1643299738,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 6.0,
+                "Y": -13.0,
+                "FrameIndex": 0,
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 5.5615,
+                "Y": -16.756,
+                "FrameIndex": 10,
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 8.1632,
+                "Y": -14.5259,
+                "FrameIndex": 20,
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 10.7649,
+                "Y": -8.9507,
+                "FrameIndex": 30,
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 6.0,
+                "Y": -13.0,
+                "FrameIndex": 40,
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 3.6178,
+                "Y": -13.0,
+                "FrameIndex": 85,
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1643299738,
+            "Property": "RotationSkew",
+            "Frames": [
+              {
+                "X": 0.0,
+                "Y": 0.0001,
+                "FrameIndex": 0,
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 13.3097,
+                "Y": 13.3097,
+                "FrameIndex": 10,
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": -0.3673,
+                "Y": -0.3673,
+                "FrameIndex": 20,
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": -27.5844,
+                "Y": -27.5844,
+                "FrameIndex": 30,
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": -0.0001,
+                "FrameIndex": 40,
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 44.2247,
+                "Y": 44.2244,
+                "FrameIndex": 85,
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 1297567798,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 1.8788,
+                "Y": -2.1277,
+                "FrameIndex": 20,
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": -0.3512,
+                "Y": -2.1277,
+                "FrameIndex": 30,
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -536845572,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": -17.0,
+                "Y": 2.7,
+                "FrameIndex": 0,
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": -16.3882,
+                "Y": -4.7594,
+                "FrameIndex": 10,
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": -11.9282,
+                "Y": 6.0192,
+                "FrameIndex": 20,
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": -5.2383,
+                "Y": 2.3026,
+                "FrameIndex": 30,
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": -17.0,
+                "Y": 2.7,
+                "FrameIndex": 40,
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": -11.4424,
+                "Y": -10.7987,
+                "FrameIndex": 85,
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -536845572,
+            "Property": "RotationSkew",
+            "Frames": [
+              {
+                "X": 0.0,
+                "Y": -0.0006,
+                "FrameIndex": 0,
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": -13.9773,
+                "Y": -13.9774,
+                "FrameIndex": 10,
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 36.4725,
+                "Y": 36.4718,
+                "FrameIndex": 20,
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 34.8246,
+                "Y": 34.824,
+                "FrameIndex": 30,
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": -0.0006,
+                "FrameIndex": 40,
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": -48.6646,
+                "Y": -48.6651,
+                "FrameIndex": 85,
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 1841496968,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 93,
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": -1000.0,
+                "FrameIndex": 155,
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 1841496968,
+            "Property": "RotationSkew",
+            "Frames": [
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 0,
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 85,
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 180.0,
+                "Y": 180.0,
+                "FrameIndex": 93,
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 1841496968,
+            "Property": "AnchorPoint",
+            "Frames": [
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 93,
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1668742785,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": -2.645,
+                "Y": 20.0,
+                "FrameIndex": 50,
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": -2.645,
+                "Y": 100.0,
+                "FrameIndex": 105,
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1668742785,
+            "Property": "VisibleForFrame",
+            "Frames": [
+              {
+                "Value": false,
+                "FrameIndex": 0,
+                "Tween": false,
+                "ctype": "BoolFrameData"
+              },
+              {
+                "Value": true,
+                "FrameIndex": 50,
+                "Tween": false,
+                "ctype": "BoolFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1668742785,
+            "Property": "Alpha",
+            "Frames": [
+              {
+                "Value": 255,
+                "FrameIndex": 97,
+                "ctype": "IntFrameData"
+              },
+              {
+                "Value": 0,
+                "FrameIndex": 105,
+                "ctype": "IntFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1480076301,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": -0.519,
+                "Y": 0.5725,
+                "FrameIndex": 45,
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1480076301,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 0.1449,
+                "Y": 0.1449,
+                "FrameIndex": 45,
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.376,
+                "Y": 0.376,
+                "FrameIndex": 50,
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.376,
+                "Y": 0.376,
+                "FrameIndex": 85,
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0491,
+                "Y": 0.0491,
+                "FrameIndex": 90,
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1480076301,
+            "Property": "VisibleForFrame",
+            "Frames": [
+              {
+                "Value": false,
+                "FrameIndex": 0,
+                "Tween": false,
+                "ctype": "BoolFrameData"
+              },
+              {
+                "Value": true,
+                "FrameIndex": 45,
+                "Tween": false,
+                "ctype": "BoolFrameData"
+              },
+              {
+                "Value": true,
+                "FrameIndex": 90,
+                "Tween": false,
+                "ctype": "BoolFrameData"
+              },
+              {
+                "Value": false,
+                "FrameIndex": 91,
+                "Tween": false,
+                "ctype": "BoolFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1480076301,
+            "Property": "Alpha",
+            "Frames": [
+              {
+                "Value": 255,
+                "FrameIndex": 91,
+                "ctype": "IntFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          }
+        ],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [
+        {
+          "Name": "fly",
+          "StartIndex": 0,
+          "EndIndex": 40,
+          "RenderColor": {
+            "G": 0
+          }
+        },
+        {
+          "Name": "hit",
+          "StartIndex": 45,
+          "EndIndex": 155,
+          "RenderColor": {
+            "G": 215,
+            "B": 0
+          }
+        }
+      ],
+      "ObjectData": {
+        "Tag": 21,
+        "PrePosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "PreSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Children": [
+          {
+            "BackColorAlpha": 102,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "TouchEnable": true,
+            "Tag": 37,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "images/bird-right-wing.png"
+                },
+                "Tag": 34,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -10.5,
+                "RightMargin": -22.5,
+                "TopMargin": -3.5,
+                "BottomMargin": -29.5,
+                "ActionTag": -1643299738,
+                "Position": {
+                  "X": 6.0,
+                  "Y": -13.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewY": 0.0001,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "CColor": {},
+                "Size": {
+                  "X": 33.0,
+                  "Y": 33.0
+                },
+                "FrameEvent": "",
+                "Name": "bird-right-wing",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "images/bird-body.png"
+                },
+                "Tag": 32,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -31.6212,
+                "RightMargin": -35.3788,
+                "TopMargin": -9.3723,
+                "BottomMargin": -13.6277,
+                "ActionTag": 1297567798,
+                "Position": {
+                  "X": 1.8788,
+                  "Y": -2.1277
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "CColor": {},
+                "Size": {
+                  "X": 67.0,
+                  "Y": 23.0
+                },
+                "FrameEvent": "",
+                "Name": "bird-body",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "images/bird-left-wing.png"
+                },
+                "Tag": 33,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -39.0,
+                "RightMargin": -5.0,
+                "TopMargin": -12.2,
+                "BottomMargin": -6.8,
+                "ActionTag": -536845572,
+                "Position": {
+                  "X": -17.0,
+                  "Y": 2.7
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewY": -0.0006,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "CColor": {},
+                "Size": {
+                  "X": 44.0,
+                  "Y": 19.0
+                },
+                "FrameEvent": "",
+                "Name": "bird-left-wing",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1841496968,
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {},
+            "CColor": {},
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "FrameEvent": "",
+            "Name": "bird-container",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "LabelText": "100",
+            "LabelBMFontFile_CNB": {
+              "Type": "Default",
+              "Path": "Default/defaultBMFont.fnt"
+            },
+            "Tag": 65,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -24.145,
+            "RightMargin": -18.855,
+            "TopMargin": -38.0,
+            "BottomMargin": 2.0,
+            "ActionTag": -1668742785,
+            "Position": {
+              "X": -2.645,
+              "Y": 20.0
+            },
+            "Scale": {
+              "ScaleX": 1.7779,
+              "ScaleY": 1.7779
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "Size": {
+              "X": 43.0,
+              "Y": 36.0
+            },
+            "VisibleForFrame": false,
+            "FrameEvent": "",
+            "Name": "score",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/crash.png"
+            },
+            "Tag": 36,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -241.019,
+            "RightMargin": -239.981,
+            "TopMargin": -145.0725,
+            "BottomMargin": -143.9275,
+            "ActionTag": -1480076301,
+            "Position": {
+              "X": -0.519,
+              "Y": 0.5725
+            },
+            "Scale": {
+              "ScaleX": 0.1449,
+              "ScaleY": 0.1449
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 481.0,
+              "Y": 289.0
+            },
+            "VisibleForFrame": false,
+            "FrameEvent": "",
+            "Name": "crash",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "TouchEnable": true,
+            "Tag": 64,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -41.5188,
+            "RightMargin": -38.4812,
+            "TopMargin": -15.3761,
+            "BottomMargin": -29.6239,
+            "ActionTag": 883675522,
+            "Position": {
+              "X": -41.5188,
+              "Y": -29.6239
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {},
+            "CColor": {},
+            "Size": {
+              "X": 80.0,
+              "Y": 45.0
+            },
+            "FrameEvent": "",
+            "Name": "hit-area",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Scale": {
+          "ScaleX": 1.0,
+          "ScaleY": 1.0
+        },
+        "AnchorPoint": {},
+        "CColor": {},
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "FrameEvent": "",
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "ctype": "GameProjectData"
+    }
+  }
+}

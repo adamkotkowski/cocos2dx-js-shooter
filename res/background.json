@@ -1,0 +1,96 @@
+{
+  "ID": "c4e2dfb8-37ef-4dd5-958b-1608232213f9",
+  "Version": "2.1.0.0",
+  "Type": "Node",
+  "Name": "background",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 60,
+        "PrePosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "PreSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Children": [
+          {
+            "BackColorAlpha": 102,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "TouchEnable": true,
+            "Tag": 63,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -55.7875,
+            "RightMargin": -144.2125,
+            "TopMargin": -201.9245,
+            "BottomMargin": 1.9245,
+            "ActionTag": 1958496855,
+            "Position": {
+              "X": -55.7875,
+              "Y": 1.9245
+            },
+            "Scale": {
+              "ScaleX": 3.5201,
+              "ScaleY": 3.3085
+            },
+            "AnchorPoint": {},
+            "CColor": {},
+            "Size": {
+              "X": 200.0,
+              "Y": 200.0
+            },
+            "FrameEvent": "",
+            "Name": "Panel_1",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Scale": {
+          "ScaleX": 1.0,
+          "ScaleY": 1.0
+        },
+        "AnchorPoint": {},
+        "CColor": {},
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "FrameEvent": "",
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "ctype": "GameProjectData"
+    }
+  }
+}

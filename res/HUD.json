@@ -1,0 +1,350 @@
+{
+  "ID": "a7d6c7f0-c2ff-4a0c-b858-ac8a19043202",
+  "Version": "2.1.0.0",
+  "Type": "Node",
+  "Name": "HUD",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 46,
+        "PrePosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "PreSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Children": [
+          {
+            "BackColorAlpha": 0,
+            "SingleColor": {},
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "Tag": 47,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": -960.0,
+            "TopMargin": -640.0,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "images/bar.png"
+                },
+                "Scale9Width": 674,
+                "Scale9Height": 88,
+                "Tag": 48,
+                "PrePosition": {
+                  "X": 0.8033,
+                  "Y": 0.947
+                },
+                "PreSize": {
+                  "X": 0.3646,
+                  "Y": 0.0469
+                },
+                "LeftMargin": 596.1323,
+                "RightMargin": 13.8677,
+                "TopMargin": 18.8887,
+                "BottomMargin": 591.1113,
+                "Children": [
+                  {
+                    "ImageFileData": {
+                      "Type": "Normal",
+                      "Path": "images/bar-inside.png"
+                    },
+                    "Tag": 49,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "ActionTag": -1352406938,
+                    "Position": {
+                      "X": 175.0,
+                      "Y": 15.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "CColor": {},
+                    "Size": {
+                      "X": 350.0,
+                      "Y": 30.0
+                    },
+                    "FrameEvent": "",
+                    "Name": "time-bar",
+                    "ctype": "LoadingBarObjectData"
+                  }
+                ],
+                "ActionTag": -1595056647,
+                "Position": {
+                  "X": 771.1323,
+                  "Y": 606.1113
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "CColor": {},
+                "Size": {
+                  "X": 350.0,
+                  "Y": 30.0
+                },
+                "FrameEvent": "",
+                "Name": "time-bar-container",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "images/time.png"
+                },
+                "Scale9Width": 130,
+                "Scale9Height": 128,
+                "Tag": 50,
+                "PrePosition": {
+                  "X": 0.5778,
+                  "Y": 0.9442
+                },
+                "PreSize": {
+                  "X": 0.0729,
+                  "Y": 0.1094
+                },
+                "LeftMargin": 519.6563,
+                "RightMargin": 370.3437,
+                "TopMargin": 0.715,
+                "BottomMargin": 569.285,
+                "ActionTag": -632157942,
+                "Position": {
+                  "X": 554.6563,
+                  "Y": 604.285
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "CColor": {},
+                "Size": {
+                  "X": 70.0,
+                  "Y": 70.0
+                },
+                "FrameEvent": "",
+                "Name": "timer",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "images/circle.png"
+                },
+                "Tag": 51,
+                "PrePosition": {
+                  "X": 0.0681,
+                  "Y": 0.9088
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -73.5922,
+                "RightMargin": 755.5922,
+                "TopMargin": -74.1278,
+                "BottomMargin": 449.1278,
+                "ActionTag": -13913630,
+                "Position": {
+                  "X": 65.4078,
+                  "Y": 581.6278
+                },
+                "Scale": {
+                  "ScaleX": 0.7689,
+                  "ScaleY": 0.7494
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "CColor": {},
+                "Size": {
+                  "X": 278.0,
+                  "Y": 265.0
+                },
+                "FrameEvent": "",
+                "Name": "circle",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "images/score.png"
+                },
+                "Scale9Width": 218,
+                "Scale9Height": 55,
+                "Tag": 52,
+                "PrePosition": {
+                  "X": 0.0799,
+                  "Y": 0.8054
+                },
+                "PreSize": {
+                  "X": 0.2271,
+                  "Y": 0.0859
+                },
+                "LeftMargin": -32.2524,
+                "RightMargin": 774.2524,
+                "TopMargin": 97.0211,
+                "BottomMargin": 487.9789,
+                "ActionTag": -1369369811,
+                "Position": {
+                  "X": 76.7476,
+                  "Y": 515.4789
+                },
+                "Scale": {
+                  "ScaleX": 0.4798,
+                  "ScaleY": 0.4926
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "CColor": {},
+                "Size": {
+                  "X": 218.0,
+                  "Y": 55.0
+                },
+                "FrameEvent": "",
+                "Name": "score-caption",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 22924849,
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {},
+            "CColor": {
+              "R": 216,
+              "B": 0
+            },
+            "Size": {
+              "X": 960.0,
+              "Y": 640.0
+            },
+            "FrameEvent": "",
+            "Name": "container",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FontSize": 36,
+            "LabelText": "1200",
+            "IsCustomSize": true,
+            "HorizontalAlignmentType": "HT_Center",
+            "VerticalAlignmentType": "VT_Center",
+            "Tag": 26,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 1.89105988,
+            "RightMargin": -151.891052,
+            "TopMargin": -637.289734,
+            "BottomMargin": 537.289734,
+            "ActionTag": 502509549,
+            "Position": {
+              "X": 76.89106,
+              "Y": 587.289734
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "Size": {
+              "X": 150.0,
+              "Y": 100.0
+            },
+            "FrameEvent": "",
+            "Name": "score",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Scale": {
+          "ScaleX": 1.0,
+          "ScaleY": 1.0
+        },
+        "AnchorPoint": {},
+        "CColor": {},
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "FrameEvent": "",
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "ctype": "GameProjectData"
+    }
+  }
+}
